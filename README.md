@@ -3,7 +3,7 @@
 Supplementary code for:
 
 > **How Reliable Are Global Building Height Datasets for Urban Volumetric Stock Estimation? LiDAR Evidence from Four Cities.**
-> Sakiru Olarewaju Olagunjua, Huseyin Atakan Varolb, Ferhat Karacaa
+> Sakiru Olarewaju Olagunju, Huseyin Atakan Varol, Ferhat Karaca
 
 ---
 
