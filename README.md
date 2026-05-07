@@ -13,7 +13,9 @@ Supplementary code for:
 ├── city_configs.py                   # Path configuration and per-city parameters
 ├── validate_city.py                  # Building height validation against LiDAR (single city)
 ├── run_all_validations.py            # Runs validate_city.py sequentially for all cities
-└── MC_Sim_with_correction_factor.py  # Bootstrap uncertainty analysis for volumetric error
+├── MC_Sim_with_correction_factor.py  # Bootstrap uncertainty analysis for volumetric error
+├── Supplemenatry Material 1          # Validation statistics for global building height datasets
+└── Supplementary Materia 2           # Bootstrap-derived volumetric stock error propagation results
 ```
 
 ### Script overview
