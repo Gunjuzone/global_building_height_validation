@@ -13,7 +13,7 @@ Supplementary code for:
 ├── city_configs.py                   # Path configuration and per-city parameters
 ├── validate_city.py                  # Building height validation against LiDAR (single city)
 ├── run_all_validations.py            # Runs validate_city.py sequentially for all cities
-├── MC_Sim_with_correction_factor.py  # Bootstrap uncertainty analysis for volumetric error
+├── Bootstrap uncertainty.py          # Bootstrap uncertainty analysis for volumetric error
 ├── Supplemenatry Material 1          # Validation statistics for global building height datasets
 └── Supplementary Materia 2           # Bootstrap-derived volumetric stock error propagation results
 ```
@@ -37,7 +37,7 @@ Convenience wrapper that calls `validate_city.py` for all four cities in sequenc
 python run_all_validations.py
 ```
 
-**`MC_Sim_with_correction_factor.py`**
+**`Bootstrap uncertainty.py`**
 Bootstrap resampling analysis (up to 15,000 iterations with convergence testing) that propagates building-level height errors into 95% confidence intervals on city-scale volumetric stock estimates. Applies a material stock correction factor of 0.67 to convert gross building volume to material-bearing volume (Heeren & Fishman, 2019). Reads the validated GeoPackages produced by `validate_city.py`.
 
 ```bash
